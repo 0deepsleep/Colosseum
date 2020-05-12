@@ -15,6 +15,7 @@
         android:text="@string/id"/>
 
     <EditText
+        android:id="@+id/emailEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_email"
@@ -27,6 +28,7 @@
         android:text="@string/password"/>
 
     <EditText
+        android:id="@+id/pwEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_pw"
@@ -34,11 +36,13 @@
 
 
     <Button
+        android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login"/>
 
     <Button
+        android:id="@+id/signupBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sign_up"/>
