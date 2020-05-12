@@ -20,8 +20,8 @@
         android:hint="@string/hint_email"
         android:inputType="textEmailAddress" />
 
-    <TextView
 
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/password"/>
@@ -32,10 +32,12 @@
         android:hint="@string/hint_pw"
         android:inputType="textPassword" />
 
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
